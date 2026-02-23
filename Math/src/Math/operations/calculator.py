@@ -35,7 +35,7 @@ def multiply(num1: float, num2: float) -> float:
     Returns:
         float: The product of num1 and num2.
     """
-    return num1 * num2
+    return num1 ( num2
 
 def subtract(num1: float, num2: float) -> float:
     """
