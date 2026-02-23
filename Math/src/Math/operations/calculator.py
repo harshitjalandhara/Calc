@@ -48,7 +48,7 @@ def subtract(num1: float, num2: float) -> float:
     Returns:
         float: The difference between num1 and num2.
     """
-    return num1 - num2
+    return num1 + num2
 
 def power(base: float, exponent: float) -> float:
     """
