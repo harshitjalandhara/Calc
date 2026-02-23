@@ -35,7 +35,7 @@ def multiply(num1: float, num2: float) -> float:
     Returns:
         float: The product of num1 and num2.
     """
-    return num1 ( num2
+    return num1 * num2
 
 def subtract(num1: float, num2: float) -> float:
     """
@@ -67,4 +67,4 @@ def power(base: float, exponent: float) -> float:
     # Python's ** operator handles large numbers, negative bases, fractional exponents,
     # and the x^0 = 1 edge case effectively with floats.
     # For extremely large results that exceed float capacity, Python will return inf.
-    return base ** exponent
+    return base * exponent
